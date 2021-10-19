@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import classes from "./Login.module.css";
 
 import { Link } from "react-router-dom";
-// import { useDispatch } from "react-redux";
-// import { authActions } from "../../store/auth-slice";
+import { useDispatch } from "react-redux";
+import { authActions } from "../../store/auth-slice";
 import { useRef } from "react";
 
 const Login = () => {
